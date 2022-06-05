@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navv {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: center;
+padding: 10px;
+background-color: rgb(4, 117, 117);
+}
+
+.huno {
+    font-size: 50px;
+    background-color: white;
+}
+
+.divnav {
+    
+    padding: 20px;
+}
+
+.btn {
+    color: white;
+    background: rgb(29, 3, 63);
+    padding: 20px
+}
+
+.btn:hover {
+    background: rgb(96, 6, 114);
+}
+
