@@ -42,7 +42,7 @@ export const getProducts = () => {
     })
 }
 
-/* agregar 
+/*
 
 export const getProductsById = (id) => {
     return new Promise (resolve => {
