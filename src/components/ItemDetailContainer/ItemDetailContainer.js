@@ -5,7 +5,7 @@ const ItemDetailContainer = () => {
     const {id} = useParams();
     return (<>
 <h1>ItemDetailContainer</h1>
-<h3>El ide de este producto es el numero {id} </h3>
+<h3>El id de este producto es el numero {id} </h3>
     
     </>
     )
