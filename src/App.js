@@ -13,17 +13,19 @@ function App() {
   return (
 
     <>
+    
     <div className="App">
       <NavBar />
       <section>
         <Routes>
           <Route path='/' element={<ItemListContainer greeting="Lista de Catalogo" />}></Route>
+          <Route path='/categoria/:categoriaId' element={<ItemListContainer />}></Route>
           <Route path='/item/:id' element={<ItemDetailContainer />} />
         </Routes>
       </section>
       <ItemCount stock={10} />
     </div>
-
+    
     </>
 
   );
