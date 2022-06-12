@@ -8,9 +8,9 @@ function NavBar() {
             <h1 className="huno">WaterStore</h1>
             <div className="divnav">
 
-                <button className="btn">Contacto</button>
-                <button className="btn">Oferta</button>
-                <button className="btn">Nosotros</button>
+                <button className="btn">Celulares</button>
+                <button className="btn">Tablets</button>
+                <button className="btn">Smarts</button>
 
             </div>
 
