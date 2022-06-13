@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+
 
 const products = [
     { 
@@ -12,7 +12,7 @@ const products = [
     }, 
     { 
         id: '2', 
-        name: 'Tablet', 
+        name: 'tablet', 
         price: 1000, 
         category: 'tablet', 
         img: '/images/tablet.png', 
@@ -20,7 +20,7 @@ const products = [
         description:'Descripcion de Tablet'
     }, { 
         id: '3', 
-        name: 'SmartTv', 
+        name: 'smart', 
         price: 1000, 
         category: 'tablet', 
         img: '/images/tv.png', 
