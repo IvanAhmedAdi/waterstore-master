@@ -5,7 +5,7 @@ const products = [
         id: '1', 
         name: 'Iphone13', 
         price: 1000, 
-        category: 'celular', 
+        category: 'Celulares', 
         img: '/images/iphone13.png', 
         stock: 10, 
         description:'Descripcion de Iphone 13'
@@ -14,7 +14,7 @@ const products = [
         id: '2', 
         name: 'tablet', 
         price: 1000, 
-        category: 'tablet', 
+        category: 'Tablets', 
         img: '/images/tablet.png', 
         stock: 15, 
         description:'Descripcion de Tablet'
@@ -22,7 +22,7 @@ const products = [
         id: '3', 
         name: 'smart', 
         price: 1000, 
-        category: 'tablet', 
+        category: 'Smart', 
         img: '/images/tv.png', 
         stock: 10, 
         description:'Descripcion de SmartTv'
