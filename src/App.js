@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 import './App.css';
 import NavBar from './components/Navbar/NavBar';
 import ItemListContainer from './components/ItemListConteiner/ItemListConteiner';
@@ -15,6 +15,7 @@ function App() {
     <>
     
     <div className="App">
+      
       <NavBar />
       <section>
         <Routes>
@@ -27,7 +28,7 @@ function App() {
     </div>
     
     </>
-
+   
   );
 }
 
